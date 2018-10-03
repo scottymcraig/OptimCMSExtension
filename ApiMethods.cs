@@ -8,6 +8,11 @@ namespace OptimCMSExtension
 {
     public static class OptimCMS
     {
+        /// <summary>
+        /// Method to get data from the old OptimCMS Api
+        /// </summary>
+        /// <param name="myconfiguration">Configuration data to be passed to the Api</param>
+        /// <returns>Returns a string with the HTML output of your call</returns>
         public static async Task<string> OptimOldApiData(OptimOldApiConfig myconfiguration)
         {
             using (var client = new HttpClient())
@@ -28,6 +33,11 @@ namespace OptimCMSExtension
             }
         }
 
+        /// <summary>
+        /// Method to get data from the new OptimCMS Api
+        /// </summary>
+        /// <param name="myconfiguration">Configuration data to be passed to the Api</param>
+        /// <returns>Returns a string with the HTML output of your call</returns>
         public static async Task<string> OptimApiData(OptimApiConfig myconfiguration)
         {
             using (var client = new HttpClient())

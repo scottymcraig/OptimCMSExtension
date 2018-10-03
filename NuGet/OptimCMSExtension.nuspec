@@ -2,27 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
     <metadata>
         <id>OptimCMS.Extension</id>
-
-        <version>2.0.0</version>
-
+        <version>2.0.1</version>
         <authors>Scott Craig</authors>
-
         <owners>scottymcraig</owners>
-
         <licenseUrl>http://opensource.org/licenses/MS-PL</licenseUrl>
-        <projectUrl>http://github.com/contoso/UsefulStuff</projectUrl>
-
-        <iconUrl>http://github.com/contoso/UsefulStuff/nuget_icon.png</iconUrl>
-
+        <projectUrl>https://github.com/scottymcraig/OptimCMSExtension</projectUrl>
+        <iconUrl>https://www.optim-cms.com/images/logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-
         <releaseNotes>Initial release of package</releaseNotes>
-
         <description>Core functions to obtain data from OptimCMS</description>
-
         <copyright>Copyright ©2018 White Box Technologies, LLC</copyright>
-
         <tags>cms utility</tags>
-
+        <dependencies>
+            <group targetFramework=".NETStandard2.0" />
+        </dependencies>
     </metadata>
 </package>
